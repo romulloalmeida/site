@@ -1,3 +1,12 @@
+/* Usando fontes do google fontes */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+/* Customizando todas as tags HTML(html *) famoso reset CSS */
+html *{
+    /* Margem */
+    margin: 0;
+}
+
 /* Personalizando Body */
 body{
     /* Aliando centro */
@@ -10,27 +19,28 @@ body{
     background-position: center;
     /* Altura do body */
     height: 100vh;
-}
-
-/* Personalizando o título */
-h1 { 
     color: red;
-    font-family: 'Courier New', Courier, monospace;
 }
 
-/* Personalizando o subtítulo com id, chamando com "#" */
-#green{
-    color: green;
-    font-style: italic;
+/* Configurando tamanho das divisões das partes principais da tela */
+#top{
+    height: 20vh;
+    background-color:#d3d3667e;
+    font-family: 'Pangolin', cursive;
 }
 
-#blue{
+#conteudo{
+    height: 60vh;
+    background-color: #a62b2b7e;
     color: blue;
-    font-size: larger;
 }
 
-/* Personalizando class, chamando com "." */
-.color{
-    color: red;
-    font-size: 24px;
+#bot{
+    height: 20vh;
+    background-color: #5f9ea07e;
+}
+
+.icones{
+    height: 25px;
+    width: 25px;
 }
